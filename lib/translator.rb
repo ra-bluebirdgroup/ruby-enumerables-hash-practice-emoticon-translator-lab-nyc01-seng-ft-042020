@@ -5,7 +5,7 @@ emoticons = YAML.load('emoticons.yml')
 
 
 def load_library(emoticons)
-JSON.pretty_generate(emoticons)
+ input = JSON.pretty_generate(emoticons)
 
   # code goes here
   # new_hash = {}
