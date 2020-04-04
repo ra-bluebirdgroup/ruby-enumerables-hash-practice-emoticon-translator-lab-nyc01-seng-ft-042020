@@ -23,7 +23,7 @@ def load_library(lib)
          new_hash[name][:japanese] = version[1]
         end
 
-     end
+    # end
    end
  p new_hash
 
