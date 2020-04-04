@@ -28,7 +28,6 @@ def load_library(lib)
   new_hash
 end
 
-
 def get_english_meaning(file_path = './lib/emoticons.yml', japanese_emoticon)
   library = load_library(file_path)
   result = "Sorry, that emoticon was not found"
@@ -44,4 +43,5 @@ def get_english_meaning(file_path = './lib/emoticons.yml', japanese_emoticon)
   end
   
 result
-end
+end 
+def get_japanese_emoticon(file_path = './lib/emoticons.yml', english_emoticon, )
