@@ -30,4 +30,3 @@ def load_library(lib)
 end
 
 def get_english_meaning(lib, emoticon)
-
