@@ -4,8 +4,8 @@ require 'yaml'
 emoticons = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
 
 def load_library(emoticons)
-  new_hash = {} 
-  
+  new_hash = {}
+
   emoticons.each do |name|
     if !new_hash.has_key?(name)
       new_hash[name] = {}
