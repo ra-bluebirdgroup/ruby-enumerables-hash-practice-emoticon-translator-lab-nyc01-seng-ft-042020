@@ -29,4 +29,5 @@ def load_library(lib)
 
 end
 
-def get_english_meaning(lib, emoticon)
+def get_english_meaning(lib, emoticon) 
+end
