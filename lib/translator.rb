@@ -35,7 +35,7 @@ def get_english_meaning(file_path = './lib/emoticons.yml', japanese_emoticon)
     emoticons.each do |name, lang_versions|
       lang_versions.each do |lang, version|
 
-            if version !== japanese_emoticon
+            if version != japanese_emoticon
               puts "Sorry, that emoticon was not found"
             else
               puts "#{name}"
