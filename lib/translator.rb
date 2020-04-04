@@ -1,10 +1,11 @@
 # require modules here
-# require 'pry'
+require 'pry'
 require 'yaml'
 emoticons = YAML.load("./lib/emoticons.yml")
 
 def load_library(emoticons)
  p emoticons
+
  #  new_hash = {}
  #  emoticons.each do |name|
  #    if !new_hash.has_key?(name)
