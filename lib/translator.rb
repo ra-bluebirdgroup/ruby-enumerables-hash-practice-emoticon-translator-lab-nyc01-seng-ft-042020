@@ -30,7 +30,9 @@ end
 
 
 def get_english_meaning(file_path = './lib/emoticons.yml', japanese_emoticon)
-   library = load_library(file_path)
+  library = load_library(file_path)
+
+    library.each do |name, versions|
 
             if library[name][versions].include?(japanese_emoticon)
               library[name]
