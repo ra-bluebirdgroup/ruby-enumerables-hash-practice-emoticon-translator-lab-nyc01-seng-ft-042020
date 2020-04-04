@@ -7,7 +7,7 @@ emoticons = YAML.load('emoticons.yml')
 
 def load_library(emoticons)
   new_hash = {}
-  emoticons.split("")
+  JSON.parse(emoticons.gsub("=>", ":").gsub(":nil,", ":null,"))
 end
 
 
