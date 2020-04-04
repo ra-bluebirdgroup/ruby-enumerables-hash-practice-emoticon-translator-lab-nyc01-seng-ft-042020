@@ -1,7 +1,7 @@
 # require modules here
 require 'pry'
 require 'yaml'
-loaded = YAML.load('--- emoticons.yml')
+loaded = YAML.load('emoticons.yml')
 
 
 
