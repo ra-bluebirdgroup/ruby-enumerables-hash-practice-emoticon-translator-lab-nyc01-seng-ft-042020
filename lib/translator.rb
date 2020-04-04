@@ -7,10 +7,11 @@ emoticons = YAML.load('emoticons.yml')
 
 def load_library(emoticons)
   new_hash = {}
-  emoticons.split("")
+  emoticons.split("")  
+  puts emoticons
 end
 
-
+load_library
 #
 # def get_japanese_emoticon
 #   # code goes here
