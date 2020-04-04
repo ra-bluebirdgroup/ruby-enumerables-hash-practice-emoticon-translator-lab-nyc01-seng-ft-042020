@@ -4,9 +4,9 @@ require 'yaml'
 file = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
 
 
-def load_library(emoticons)
+def load_library(file)
   # code goes here
-  emoticons.split(", ")
+  file.split(", ")
   binding.pry
 
   # new_hash = {}
