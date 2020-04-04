@@ -33,8 +33,10 @@ def get_english_meaning(lib, emoticon)
    emoticons = load_library(lib)
    translation = ""
    emoticons.each do |name, versions|
-     version.each do |
-     if emoticon == version
+     version.each do |version, emoticon_version|
+     if emoticon_version.include?(emoticon) 
+       p version[1]
 
-
+     elsif 
+       emoticon !=
 end
