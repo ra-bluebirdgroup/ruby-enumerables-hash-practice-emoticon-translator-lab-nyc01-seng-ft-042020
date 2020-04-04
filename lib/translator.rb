@@ -30,7 +30,7 @@ end
 
 
 def get_english_meaning(file_path = './lib/emoticons.yml', japanese_emoticon)
-   emoticons = load_library(lib)
+   emoticons = load_library(file_path)
    emoticons.each do |name, lang_versions|
      lang_versions.each do |lang, version|
    if version == emoticon
