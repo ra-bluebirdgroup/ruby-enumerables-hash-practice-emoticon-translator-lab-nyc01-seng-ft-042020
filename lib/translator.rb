@@ -25,7 +25,7 @@ def load_library(lib)
 
 
    end
- p new_hash
+  new_hash
 end
 
 def get_english_meaning(lib, emoticon)
