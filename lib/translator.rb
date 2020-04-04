@@ -6,11 +6,10 @@ lib = './lib/emoticons.yml'
 
 
 def load_library(lib)
-  #emoticons = YAML::load_file(File.join(lib))
   emoticons = YAML.load_file(lib)
   new_hash = {}
-   emoticons.each do |name, translation|
-     translation.each do |lang|
+   emoticons.each do |name, versions|
+     #translation.each do |lang|
 
        if !new_hash.has_key?(name)
          new_hash[name]={}
@@ -30,12 +29,5 @@ def load_library(lib)
 
 end
 
-load_library(lib)
-#
-# def get_japanese_emoticon
-#   # code goes here
-# end
-#
-# def get_english_meaning
-#   # code goes here
-# end
+def get_english_meaning(lib, emoticon)
+
