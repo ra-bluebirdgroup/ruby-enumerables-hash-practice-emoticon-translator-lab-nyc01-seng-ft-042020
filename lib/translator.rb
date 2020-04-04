@@ -4,10 +4,6 @@ require 'yaml'
 emoticons = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
 
 def load_library(emoticons)
- emoticons
- binding.pry
-
-
  #  new_hash = {}
  #  emoticons.each do |name|
  #    if !new_hash.has_key?(name)
@@ -26,7 +22,7 @@ def load_library(emoticons)
  #   end
  # new_hash
 end
-
+binding.pry
 def get_japanese_emoticon
   # code goes here
 end
