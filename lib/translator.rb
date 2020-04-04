@@ -1,5 +1,5 @@
 # require modules here
- require 'pry'
+ # require 'pry'
 require 'yaml'
 file = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
 
