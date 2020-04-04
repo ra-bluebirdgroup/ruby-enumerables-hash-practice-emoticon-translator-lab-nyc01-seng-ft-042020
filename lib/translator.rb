@@ -30,5 +30,5 @@ def load_library(lib)
 end
 
 def get_english_meaning(file_path, version) 
-  
+
 end
