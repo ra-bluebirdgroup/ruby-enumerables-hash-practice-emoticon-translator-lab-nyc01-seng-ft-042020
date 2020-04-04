@@ -1,7 +1,7 @@
 # require modules here
   # require 'pry'
 require 'yaml'
-emoticons = ruby -rjson -ryaml -e "puts YAML.load_file('my_file.yml').to_json"
+emoticons = ruby -rjson -ryaml -e YAML.load_file('my_file.yml').to_json
 
 
 def load_library(emoticons)
