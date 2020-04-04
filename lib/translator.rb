@@ -30,12 +30,12 @@ def load_library(lib)
 
 end
 
-load_library(emoticons)
+#load_library(emoticons)
 #
 # def get_japanese_emoticon
 #   # code goes here
 # end
 #
 # def get_english_meaning
-#   # code goes here
+#   # code goes herex
 # end
