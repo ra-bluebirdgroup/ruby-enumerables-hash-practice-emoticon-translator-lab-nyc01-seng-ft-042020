@@ -1,10 +1,12 @@
 # require modules here
 require 'pry'
 require 'yaml'
-loaded = YAML.load('emoticons.yml')
+loaded = YAML.load('emoticons.yml') 
 
 
-def load_library(emoticons)
+
+def load_library(emoticons) 
+   yamldata = File.read(emoticons)
 
   # code goes here
   # new_hash = {}
