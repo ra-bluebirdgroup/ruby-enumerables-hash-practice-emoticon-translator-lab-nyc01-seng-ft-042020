@@ -9,7 +9,7 @@ def load_library(lib)
   emoticons = YAML.load_file(lib)
   new_hash = {}
    emoticons.each do |name, version|
-  
+
 
        if !new_hash.has_key?(name)
          new_hash[name]={}
@@ -29,5 +29,5 @@ def load_library(lib)
 
 end
 
-# def get_english_meaning(lib, emoticon)
+def get_english_meaning(lib, version)
 # end
