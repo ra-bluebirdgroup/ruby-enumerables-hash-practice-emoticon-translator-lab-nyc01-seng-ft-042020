@@ -37,5 +37,5 @@ end
 # end
 #
 # def get_english_meaning
-#   # code goes herex
+#   # code goes here
 # end
