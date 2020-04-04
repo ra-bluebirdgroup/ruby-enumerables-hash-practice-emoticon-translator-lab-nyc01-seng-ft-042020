@@ -2,11 +2,11 @@
 # require 'pry'
 require 'yaml'
 emoticons = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
-
+lib = 'emoticons.yml'
 
 
 def load_library(lib)
-  emoticons = YAML::load_file(File.join(__dir__, '#{lib}'))
+  emoticons = YAML::load_file(File.join(__dir__, lib))
 
   new_hash = {}
    emoticons.each do |name, translation|
