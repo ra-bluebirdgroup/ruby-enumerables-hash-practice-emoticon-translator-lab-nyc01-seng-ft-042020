@@ -11,6 +11,7 @@ def load_library(emoticons)
     if !new_hash.has_key?(name)
       new_hash[name] = {}
     end
+  end 
  #    name.each do |array|
  #       if !new_hash[name].has_key?(:english)
  #         new_hash[name][:english] = array[0]
