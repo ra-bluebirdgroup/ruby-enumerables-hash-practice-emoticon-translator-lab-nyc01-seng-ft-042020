@@ -5,8 +5,8 @@ require 'yaml'
 #emoticons = YAML.load('emoticons.yml')
 emoticons = YAML.load('emoticons.yml')
 def load_library(emoticons)
-  new_hash = {}
-  
+  new_hash = {emoticons}
+
  #    name.each do |array|
  #       if !new_hash[name].has_key?(:english)
  #         new_hash[name][:english] = array[0]
