@@ -28,8 +28,8 @@ def load_library(lib)
   new_hash
 end
 
-file_path = './lib/emoticons.yml'
-def get_english_meaning(file_path, emoticon)
+
+def get_english_meaning(file_path = './lib/emoticons.yml', emoticon)
    emoticons = load_library(lib)
    emoticons.each do |name, lang_versions|
      lang_versions.each do |lang, version|
