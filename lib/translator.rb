@@ -52,8 +52,8 @@ def get_japanese_emoticon(file_path = './lib/emoticons.yml', english_emoticon)
     library.each do |name, versions|
       versions.each do |lang, emoji|
 
-      if emoji.include?(english_emoticon)
-        result = emoji
+      if !versions.include?(english_emoticon)
+        result = versions[0]
       end
 
     end
