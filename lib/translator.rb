@@ -8,7 +8,8 @@ def load_library(file)
   # code goes here
   file.split(", ")
 
-  file
+  file 
+  binding.pry
 
   # new_hash = {}
   # emoticons.each do |name|
