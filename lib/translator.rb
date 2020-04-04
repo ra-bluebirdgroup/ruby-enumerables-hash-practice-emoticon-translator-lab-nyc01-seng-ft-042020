@@ -29,7 +29,10 @@ def load_library(lib)
 
 end
 
-def get_english_meaning(lib, version)
-  load_library(lib)
+def get_english_meaning(lib, emoticon)
+   emoticons = load_library(lib)
+
+   emoticons.each do  emoticons.each do |name, version|
+
 
 end
