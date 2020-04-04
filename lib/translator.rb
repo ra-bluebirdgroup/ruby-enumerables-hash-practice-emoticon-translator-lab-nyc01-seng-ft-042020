@@ -39,7 +39,7 @@ def get_english_meaning(file_path = './lib/emoticons.yml', japanese_emoticon)
        return invalid_emoticon
 
      else
-       return name 
+       return name
        
       end
   end
