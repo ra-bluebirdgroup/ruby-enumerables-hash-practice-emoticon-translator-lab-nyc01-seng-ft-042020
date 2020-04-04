@@ -6,11 +6,6 @@ file = YAML::load_file(File.join(__dir__, 'emoticons.yml').to_json)
 
 def load_library(file)
   # code goes here
-  file.split(", ")
-
-  file
-  binding.pry
-
   # new_hash = {}
   # emoticons.each do |name|
   #   if !new_hash.has_key?(name)
