@@ -1,7 +1,7 @@
 # require modules here
 require 'pry'
 require 'yaml'
-emoticons =  JSON.pretty_generate(YAML.load('emoticons.yml'))
+emoticons =  JSON.pretty_generate(YAML.load(File.read('emoticons.yml')))
 
 
 def load_library(emoticons)
