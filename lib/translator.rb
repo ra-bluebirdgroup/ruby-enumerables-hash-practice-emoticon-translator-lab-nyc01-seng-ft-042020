@@ -37,6 +37,6 @@ def get_english_meaning(lib, emoticon)
      if emoticon_version.include?(emoticon) 
        p version[1]
 
-     elsif
-       emoticon !=
+     else 
+       p  "Sorry, that emoticon was not found"
 end
