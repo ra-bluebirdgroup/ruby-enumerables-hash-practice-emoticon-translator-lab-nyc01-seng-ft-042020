@@ -22,13 +22,9 @@ def load_library(emoticons)
          new_hash[name][:japanese] = translation[1]
         end
 
-
-
-
-
      end
    end
- puts new_hash
+ p new_hash
 
 end
 
