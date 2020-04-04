@@ -3,10 +3,12 @@
 require 'yaml'
 #emoticons = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
 #emoticons = YAML.load('emoticons.yml')
+emoticons = YAML.load('emoticons.yml')
 
 def load_library(emoticons)
-  emoticons = YAML.load('emoticons.yml')
-  new_hash = { }
+
+  new_hash = { } 
+  emoticons.split(", ")
    emoticons.each do |name|
        if !new_hash[name].has_key?(:english)
          new_hash[name][:english] = array[0]
