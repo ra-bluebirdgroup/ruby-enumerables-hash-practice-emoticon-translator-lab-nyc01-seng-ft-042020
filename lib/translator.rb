@@ -31,8 +31,9 @@ end
 
 def get_english_meaning(lib, emoticon)
    emoticons = load_library(lib)
-
+   translation = ""
    emoticons.each do  emoticons.each do |name, version|
+     if  emoticon
 
 
 end
