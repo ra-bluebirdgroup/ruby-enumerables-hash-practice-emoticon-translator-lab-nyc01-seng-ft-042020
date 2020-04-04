@@ -45,7 +45,7 @@ def get_english_meaning(file_path = './lib/emoticons.yml', japanese_emoticon)
       if !emoji.include?(japanese_emoticon)
          invalid_emoticon
       end
- end
- end
+   end
+  end
 
 end
