@@ -7,7 +7,7 @@ file = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
 def load_library(file)
   # code goes here
   file.split(", ")
-  binding.pry
+  # binding.pry
   file
 
   # new_hash = {}
