@@ -7,16 +7,18 @@ emoticons = YAML.load('emoticons.yml')
 
 def load_library(emoticons)
 
-  new_hash = { }
+  new_hash = {}
 
-   emoticons.each do |name|
+   emoticons.each do |name, translation| 
+     translation.each do |lang|
+       
        if !new_hash.has_key?(name)
-         new_hash[name] {}
+         new_hash[name]={}
        end
 
-       if !new_hash[name].has_key?(:english)
-         new_hash[name][:english] = []
-       end
+      #  if !new_hash[name].has_key?(:english)
+      #    new_hash[name][:english] = ""
+      #  end
 
      end
    end
