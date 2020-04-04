@@ -9,9 +9,9 @@ def load_library(emoticons)
 
   new_hash = {}
 
-   emoticons.each do |name, translation| 
+   emoticons.each do |name, translation|
      translation.each do |lang|
-       
+
        if !new_hash.has_key?(name)
          new_hash[name]={}
        end
