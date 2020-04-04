@@ -26,16 +26,14 @@ def load_library(lib)
 
    end
  p new_hash
-
 end
 
 def get_english_meaning(lib, emoticon)
    emoticons = load_library(lib)
-   translation = ""
-   emoticons.each do |name, versions|
-     versions.each do |lang_version, emoticon_version|
-     if emoticon_version.include?(emoticon)
-       #p lang_version
+   emoticons.each do |name, lang_versions|
+     lang_versions.each do |lang, version|
+   if version == emoticon
+     lang[0]
 
      else
        p  "Sorry, that emoticon was not found"
