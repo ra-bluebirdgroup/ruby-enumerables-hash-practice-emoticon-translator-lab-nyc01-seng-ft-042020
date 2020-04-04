@@ -21,6 +21,7 @@ def load_library(emoticons)
      end
    end
  new_hash
+ binding.pry
 end
 
 def get_japanese_emoticon
