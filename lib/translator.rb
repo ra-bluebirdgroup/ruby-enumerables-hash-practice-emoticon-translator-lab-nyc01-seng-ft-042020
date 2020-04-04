@@ -1,8 +1,8 @@
 # require modules here
 # require 'pry'
 require 'yaml'
-emoticons = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
-
+# emoticons = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
+emoticons = File.open("emoticons.yml") { |file| YAML.load(file) }
 def load_library(emoticons)
   new_hash = {}
 
