@@ -1,7 +1,7 @@
 # require modules here
   # require 'pry'
 require 'yaml'
-emoticons = YAML.dump(emoticons)
+emoticons = YAML.dump('emoticons.yml')
 
 
 def load_library(emoticons)
