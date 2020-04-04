@@ -34,9 +34,9 @@ def get_english_meaning(lib, emoticon)
    translation = ""
    emoticons.each do |name, versions|
      version.each do |version, emoticon_version|
-     if emoticon_version.include?(emoticon) 
+     if emoticon_version.include?(emoticon)
        p version[1]
 
-     else 
+     else
        p  "Sorry, that emoticon was not found"
 end
