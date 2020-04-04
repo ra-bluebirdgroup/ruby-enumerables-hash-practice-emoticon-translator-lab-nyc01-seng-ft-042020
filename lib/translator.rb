@@ -8,7 +8,9 @@ emoticons = YAML.load('emoticons.yml')
 def load_library(emoticons)
   new_hash = {}
   emoticons.split("")
-  puts emoticons
+  emoticons.each do |i|
+    puts i
+  end 
 end
 
 load_library(emoticons)
