@@ -6,7 +6,7 @@ require 'yaml'
 #emoticons = YAML.load('emoticons.yml')
 
 def load_library(emoticons)
-  emoticons = emoticons = YAML.load('emoticons.yml')
+  lib = emoticons = YAML.load('emoticons.yml')
 
   new_hash = {}
    emoticons.each do |name, translation|
