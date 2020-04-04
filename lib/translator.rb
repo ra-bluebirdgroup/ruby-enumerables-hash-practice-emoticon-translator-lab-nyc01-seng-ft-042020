@@ -35,9 +35,7 @@ def get_english_meaning(file_path = './lib/emoticons.yml', japanese_emoticon)
     library.each do |name, versions|
       versions.each do |lang, emoji|
 
-     if !versions.include?(japanese_emoticon)
-       puts "Sorry, that emoticon was not found"
-     elsif versions.include?(japanese_emoticon)
+     if versions.include?(japanese_emoticon)
        return name
      end
 
