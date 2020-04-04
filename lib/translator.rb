@@ -21,7 +21,7 @@ def load_library(emoticons)
 
      end
    end
- new_hash
+ puts new_hash
 
 end
 load_library(emoticons)
