@@ -5,7 +5,7 @@ emoticons = YAML.load('emoticons.yml').read
 
 
 def load_library(emoticons)
- 
+
   # code goes here
   # new_hash = {}
   # emoticons.each do |name|
