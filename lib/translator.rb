@@ -17,15 +17,15 @@ def load_library(emoticons)
 
       if !new_hash[name].has_key?(:english)
         new_hash[name][:english] = translation[0]
-       end   
+       end
 
        if !new_hash[name].has_key?(:japanese)
          new_hash[name][:japanese] = translation[1]
-        end  
+        end
 
-       
 
-       
+
+
 
      end
    end
