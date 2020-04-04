@@ -31,13 +31,14 @@ end
 
 def get_english_meaning(file_path = './lib/emoticons.yml', japanese_emoticon)
   library = load_library(file_path)
-
+  invalid_emoticon = "Sorry, that emoticon was not found"
     library.each do |name, versions|
       versions.each do |lang, emoji|
 
      if emoji.include?(japanese_emoticon)
        return name
-     end
+     else
+       return invalid_emoticon
 
 end
 end
