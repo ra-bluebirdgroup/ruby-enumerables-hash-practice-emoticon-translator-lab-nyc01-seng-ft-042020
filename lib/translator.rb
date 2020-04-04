@@ -44,5 +44,6 @@ def get_english_meaning(file_path = './lib/emoticons.yml', japanese_emoticon)
       end
   end
  end
-
+ 
+result
 end
