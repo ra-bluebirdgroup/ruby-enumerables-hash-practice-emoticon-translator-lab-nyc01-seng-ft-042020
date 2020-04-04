@@ -6,7 +6,7 @@ emoticons = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
 
 def load_library(emoticons)
   # code goes here
-  emoticons.split(, )
+  emoticons.split("" )
 
   new_hash = {}
   emoticons.each do |name|
