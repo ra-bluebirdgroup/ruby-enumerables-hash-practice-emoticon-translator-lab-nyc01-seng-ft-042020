@@ -5,28 +5,28 @@ require 'yaml'
 lib = './lib/emoticons.yml'
 
 
-def load_library(lib)
-  emoticons = YAML.load_file(lib)
-  new_hash = {}
-   emoticons.each do |name, versions|
-
-
-       if !new_hash.has_key?(name)
-         new_hash[name]={}
-       end
-
-      if !new_hash[name].has_key?(:english)
-        new_hash[name][:english] = versions[0]
-       end
-
-       if !new_hash[name].has_key?(:japanese)
-         new_hash[name][:japanese] = versions[1]
-        end
-
-
-   end
-  new_hash
-end
+# def load_library(lib)
+#   emoticons = YAML.load_file(lib)
+#   new_hash = {}
+#    emoticons.each do |name, versions|
+#
+#
+#        if !new_hash.has_key?(name)
+#          new_hash[name]={}
+#        end
+#
+#       if !new_hash[name].has_key?(:english)
+#         new_hash[name][:english] = versions[0]
+#        end
+#
+#        if !new_hash[name].has_key?(:japanese)
+#          new_hash[name][:japanese] = versions[1]
+#         end
+#
+#
+#    end
+#   new_hash
+# end
 
 def get_english_meaning(lib, emoticon)
    emoticons = load_library(lib)
